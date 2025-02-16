@@ -1,0 +1,22 @@
+Per a la base de dades teniu el hibernate.properities per si no funciona la ruta.
+Utilitzeu Visual Studio.
+el programa es fara en JPA.
+Utilitzant les clases
+
+-Empleat
+	- id
+	- nom
+-Projecte
+	- id
+	- nom
+	- data inicial
+	- data final
+-Departament  
+	- id
+	- nom
+
+Ha d'haber relacio @OneToMany entre Departament i Empleat 
+Ha d'haber relacio @OneToMany entre Projecte i Empleat 
+al Manager tota la configuració
+
+EL MAIN NO ES TOCA SI NO ES PER INICIAR EL PROGRAMA
